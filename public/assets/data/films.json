@@ -1,0 +1,26 @@
+[
+    {
+        "id": 101,
+        "title": "Avengers: Endgame",
+        "overview": "The grave course of events set in motion by Thanos that wiped out half the universe and fractured the Avengers ranks compels the remaining Avengers to take one final stand in Marvel Studios' grand conclusion to twenty-two films, \"Avengers: Endgame.\"",
+        "directors": "Anthony Russo, Joe Russo",
+        "producer": "Kevin Feige",
+        "img": "/assets/films/avengers.jpg"
+    },
+    {
+        "id": 102,
+        "title": "Joker",
+        "overview": "In Gotham City, mentally troubled comedian Arthur Fleck is disregarded and mistreated by society. He then embarks on a downward spiral of revolution and bloody crime. This path brings him face-to-face with his alter-ego: the Joker. Arthur Fleck works as a clown and is an aspiring stand-up comic.",
+        "directors": "Todd Phillips",
+        "producer": "Todd Phillips, Bradley Cooper, Emma Tillinger Koskoff",
+        "img": "/assets/films/joker.jpg"
+    },
+    {
+        "id": 103,
+        "title": "Frozen II",
+        "overview": "Set three years after the events of the first film, the story follows Elsa, Anna, Kristoff, Olaf, and Sven, who embark on a journey beyond their kingdom of Arendelle in order to discover the origin of Elsa's magical powers and save their kingdom after a mysterious voice calls out to Elsa.",
+        "directors": "Chris Buck, Jennifer Lee",
+        "producer": "Peter Del Vecho",
+        "img": "/assets/films/frozen.jpg"
+    }
+]
