@@ -1,10 +1,9 @@
 import React, { Component } from 'react'
 
-export default class Group extends Component {
+export default class Agenda extends Component {
     render() {
         return (
             <div>
-                Group
             </div>
         )
     }

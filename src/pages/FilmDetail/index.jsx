@@ -3,23 +3,25 @@ import React, { Component } from 'react';
 import ArrowBackIosIcon from '@material-ui/icons/ArrowBackIos';
 
 import './index.css'
-import { withRouter } from 'react-router';
 
-class FilmDetail extends Component {
+export default class FilmDetail extends Component {
     constructor(props) {
         super(props);
-        this.state = {film: []};
+        this.state = {film: {}};
     }
 	goBack=()=>{
+        window.sessionStorage.removeItem('currentFilm');
 		this.props.history.go(-1);
 	}
     componentDidMount(){
-        this.setState({film: JSON.parse(window.sessionStorage.getItem('currentFilm'))});
+        const currentFilm = JSON.parse(window.sessionStorage.getItem('currentFilm'));
+        this.setState({film: currentFilm});
+        
     }
     render() {
         return (
             <div>
-                <AppBar position="static">
+                <AppBar position="sticky">
                     <Toolbar>
                         <IconButton color="inherit" onClick={this.goBack}>
                             <ArrowBackIosIcon></ArrowBackIosIcon>
@@ -47,5 +49,3 @@ class FilmDetail extends Component {
         )
     }
 }
-
-export default withRouter(FilmDetail);
